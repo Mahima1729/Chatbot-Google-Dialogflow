@@ -1,15 +1,15 @@
 # Chatbot-Google-Dialogflow
-A bot made using Google Dialogflow for iNeuron.ai (an EdTech startup) for course related queries and consultancies.
+A bot made using **Google Dialogflow** for **iNeuron.ai** (an EdTech startup) for course related queries and consultancies.
 
 ## Introduction
 
-A chatbot is an AI software application that mimics conversation with a human in natural languages through various platforms like messaging, websites, mobiles etc. The chatbot responds by identifying the intent of the conversation and then responding accordingly.Dialogflow is a natural language understanding platform that makes it easy to design and integrate a conversational user interface into your mobile app, web application, device, bot, interactive voice response system, and so on.
+A **chatbot** is an AI software application that mimics conversation with a human in natural languages through various platforms like messaging, websites, mobiles etc. The chatbot responds by identifying the intent of the conversation and then responding accordingly. **Dialogflow** is a natural language understanding platform that makes it easy to design and integrate a conversational user interface into your mobile app, web application, device, bot, interactive voice response system, and so on.
 
 ## The problem statement:
 
-To build a chatbot(names iNeuron) which can answer all the queries of a customer and whenever a customer does an enquiry, it automatically send the customer the course details. Also an email is sent to the support team to assist the customer futher with their queries.
+**To build a chatbot(named iNeuron) which can answer all the queries of a customer and whenever a customer does an enquiry, it automatically send the customer the course details. Also an email is sent to the support team to assist the customer futher with their queries.**
 
-It uses Python and Dialogflow framework to analyse the user's message, classify it into the a broader category and then reply with a suitable message or the required information. It is hosted using flask and is available on heroku at the link specified above.
+It uses **Python** and **Dialogflow** framework to analyse the user's message, classify it into the a broader category and then reply with a suitable message or the required information. It is hosted using **flask** and is available on **heroku** at the link specified above.
 
 ## Application Architecture:
 
@@ -21,7 +21,7 @@ a)	The end-user types or speaks an expression.
 
 b)	Dialogflow matches the end-user expression to an intent and extracts parameters.
 
-c)	Dialogflow sends a webhook request message to your webhook service. This message contains information about the matched intent, the action, the parameters, and the response defined for the intent.
+c)	Dialogflow sends a **webhook** request message to your webhook service. This message contains information about the matched intent, the action, the parameters, and the response defined for the intent.
 
 d)	Your service performs actions as needed, like database queries or external API calls.
 
